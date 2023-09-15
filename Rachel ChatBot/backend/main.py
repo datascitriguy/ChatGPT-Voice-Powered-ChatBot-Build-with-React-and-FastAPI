@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from decouple import config
 import openai
 
+from dotenv import load_dotenv
 
 # Custom function imports
 from functions.text_to_speech import convert_text_to_speech
